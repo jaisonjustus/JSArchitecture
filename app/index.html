@@ -1,52 +1,145 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
+        <title>EngagementHQ | One Column Layout</title>
+
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.10.3/build/cssreset/cssreset-min.css">
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="styles/layout/one-column/one-column.css"/>
+        <link rel="stylesheet" href="styles/blocks/container/container.css"/>
+        <link rel="stylesheet" href="styles/blocks/sleak-header/sleak-header.css"/>
+        <link rel="stylesheet" href="styles/blocks/sleek-footer/sleek-footer.css"/>
+        <link rel="stylesheet" href="styles/blocks/description/description.css"/>
+        <link rel="stylesheet" href="styles/blocks/keydates/keydates.css"/>
+        <link rel="stylesheet" href="styles/blocks/news/news.css"/>
+        <link rel="stylesheet" href="styles/blocks/surveys/surveys-new.css"/>
+        <link rel="stylesheet" href="styles/blocks/comments/comment.css"/>
+        <link rel="stylesheet" href="styles/blocks/gallery/gallery.css"/>
+        <link rel="stylesheet" href="styles/blocks/top-navigation/top-navigation.css"/>
     </head>
+
     <body>
-        <div class="container">
-            <div class="hero-unit">
-                <h1>'Allo, 'Allo!</h1>
-                <p>You now have</p>
-                <ul>
-                    <li>HTML5 Boilerplate</li>
-                </ul>
-                <p>installed.</p>
-                <h3>Enjoy coding! - Yeoman</h3>
+        <div class="layout">
+            <div class="layout__nav">
+                <div class="top-navigation">
+                    <button src="" class="top-navigation__search-button"></button>
+                    <input type="text" class="top-navigation__search-box" placeholder="Search"/>
+                    
+                    <a href="#" class="top-navigation__link">Home</a>
+                    <a href="#" class="top-navigation__link">Register</a>
+                    <a href="#" class="top-navigation__link">Sign In</a>
+                </div>
+            </div>
+            <div class="layout__header">
+                <div class="sleak-header">
+                    <img src="http://sydneyyoursay.com.au/banner/render_project/14" class="sleak-header__banner"/>
+                    <div class="sleak-header__nav">
+                        <span class="sleak-header__text sleak-header__text_large" data-nav-id="1">Consultation Details</span>
+                        <a href="http://www.google.com" class="sleak-header__link sleak-header__link_large" data-nav-id="2">News</a>
+                        <span class="sleak-header__text sleak-header__text_large" data-nav-id="3">Participate</span>
+                        <span class="sleak-header__text sleak-header__text_large" data-nav-id="4">Share Experiences</span>
+                        <span class="sleak-header__text sleak-header__text_large" data-nav-id="5">Media</span>
+                    </div>
+                </div>
+
+                <!-- sub navigation -->
+                <div class="sleak-header__sub-nav" data-nav-id="1">
+                    <a href="#" class="sleak-header__link sleak-header__link_large">Key Dates</a>
+                    <a class="sleak-header__link sleak-header__link_large">FAQ</a>
+                    <a class="sleak-header__link sleak-header__link_large">Project Team</a>
+                </div>
+
+                <div class="sleak-header__sub-nav" data-nav-id="3">
+                    <a href="#" class="sleak-header__link sleak-header__link_large">Q and A</a>
+                    <a class="sleak-header__link sleak-header__link_large">Guestbook</a>
+                    <a class="sleak-header__link sleak-header__link_large">Survey and Forms</a>
+                    <a class="sleak-header__link sleak-header__link_large">Quick Polls</a>
+                </div>
+
+                <div class="sleak-header__sub-nav" data-nav-id="4">
+                    <a href="#" class="sleak-header__link sleak-header__link_large">Forum</a>
+                    <a class="sleak-header__link sleak-header__link_large">Story Telling</a>
+                </div>
+
+                <div class="sleak-header__sub-nav" data-nav-id="5">
+                    <a href="#" class="sleak-header__link sleak-header__link_large">Photo Gallery</a>
+                    <a class="sleak-header__link sleak-header__link_large">Video Gallery</a>
+                    <a class="sleak-header__link sleak-header__link_large">Document Library</a>
+                </div>
+            </div>
+
+            <!-- Content Wrapper -->
+            <div class="layout__content-wrapper">
+
+            </div>
+
+            <!-- footer -->
+            <div class="layout__footer">
+                <div class="sleek-footer">
+                    <div class="sleek-footer__branding-wrapper">
+                    </div>
+                    <div class="sleek-footer__quicklink-wrapper">
+                        <h1 class="sleek-footer__header">Quick Links</h1>
+
+                        <span class="sleek-footer__quicklink">Surveys & Forms</span>
+                        <span class="sleek-footer__quicklink">News</span>
+                        <span class="sleek-footer__quicklink">Feedback</span>
+                        <span class="sleek-footer__quicklink">Guestbook</span>
+                        <span class="sleek-footer__quicklink">Photo Gallery</span>
+                        <span class="sleek-footer__quicklink">Keydates</span>
+                        <span class="sleek-footer__quicklink">Q&A</span>
+                        <span class="sleek-footer__quicklink">Accesbility</span>
+                        <span class="sleek-footer__quicklink">Terms & Conditions</span>
+                        <span class="sleek-footer__quicklink">Privacy Policy</span>
+                        <span class="sleek-footer__quicklink">Moderation Policy</span>
+                        <span class="sleek-footer__quicklink">Technical Support</span>
+                        <span class="sleek-footer__quicklink">Help</span>
+
+                    </div>
+                </div>
             </div>
         </div>
 
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+        <script id="container" type="text/html">
+            <div class="container container_full">
+                <div class="container__header-wrapper">
+                    <span class="container__header">News</span>
+                    <span class="container__text">14 more news </span>
+                    <a href="#" class="container__link">View All</a>
+                </div>
+                {{#newsDataList}}
+                    {{> newslist}}
+                {{/newsDataList}}
+            </div>
+        </script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
+        <script id="news_block_tpl" type="text/html">
+            
+            <div class="news news_{{state}}">
+                <img class="news__image news__image_{{state}}" src="{{imageUrl}}"/>
+                <h1 class="news__header news__header_{{state}}">{{title}}</h1>
+                <p class="news__posted-by">{{postedBy}}</p>
+                <p class="news__posted-on">{{postedOn}}</p>
+                <p class="news__post news__post_{{state}}">{{content}}</p>
+                <a href="{{newsLink}}" class="news__link">Read More</a>
+            </div>
+            
         </script>
 
         <!-- build:js scripts/main.js -->
         <script src="bower_components/jquery/jquery.js"></script>
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+        <script src="bower_components/mustache/mustache.js"></script>
 
-        <!-- build:js(.tmp) scripts/coffee.js -->
-        <script src="scripts/hello.js"></script>
+        <!-- Common Files -->
+        <script src="scripts/common/service.js"></script>
+
+        <script src="scripts/services/news.js"></script>
+
+        <script type="text/javascript" src="scripts/theme/onecolumn/home/logic.js"></script>
+        <script type="text/javascript" src="scripts/theme/onecolumn/home/presenter.js"></script>
+        <script type="text/javascript">
+            HomePresenter.init();
+        </script>
         <!-- endbuild -->
 </body>
 </html>
