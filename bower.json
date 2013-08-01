@@ -4,7 +4,8 @@
   "dependencies": {
     "modernizr": "~2.6.2",
     "jquery": "~1.9.1",
-    "mustache" : "0.7.2"
+    "mustache" : "0.7.2",
+    "underscore" : "1.5.1"
   },
   "devDependencies": {}
 }
