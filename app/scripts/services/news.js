@@ -4,9 +4,20 @@ var News = Service.News = EHQ.Service.extend({
 
   initialize : function() {
     this.schema = {
-      id : "int",
-      username : "string",
-      password : "string"
+      id: "string",
+			created_at: "string",
+			title: "string",
+			created_by: "string",
+			content: "string",
+			url: "string",
+			count: "string",
+			image_thumbnail_url: "string",
+			image_url: "string",
+			allow_unverified_participation: "string",
+			allow_comments: "string",
+			categories: "string",
+			permalink: "string",
+			archived : "boolean"
     };
 
     this.collection = true;
