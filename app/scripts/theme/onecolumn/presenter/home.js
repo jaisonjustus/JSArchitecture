@@ -1,13 +1,17 @@
 var HomePresenter = {
 
 	init : function()	{
-
-		this.renderNews();
+		Observer.on('newsLoaded', this.test);
 	},
 
 	templates : {
 		container : $('#container').html().replace('&gt;','>'),
 		block : $('#news_block_tpl').html().replace('&gt;','>')
+	},
+
+	test : function(data)	{
+		console.log(data, " MOFO");
+		// alert('got');
 	},
 
 	dataMap : function()	{

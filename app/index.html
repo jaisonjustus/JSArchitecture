@@ -131,13 +131,15 @@
         <script src="bower_components/mustache/mustache.js"></script>
 
         <!-- Common Files -->
+        <script src="scripts/common/event.js"></script>
         <script src="scripts/common/service.js"></script>
 
         <script src="scripts/services/news.js"></script>
 
-        <script type="text/javascript" src="scripts/theme/onecolumn/home/logic.js"></script>
-        <script type="text/javascript" src="scripts/theme/onecolumn/home/presenter.js"></script>
+        <script type="text/javascript" src="scripts/theme/onecolumn/controller/home.js"></script>
+        <script type="text/javascript" src="scripts/theme/onecolumn/presenter/home.js"></script>
         <script type="text/javascript">
+            HomeLogic.init();
             HomePresenter.init();
         </script>
         <!-- endbuild -->

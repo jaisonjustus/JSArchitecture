@@ -4,29 +4,15 @@ var News = Service.News = EHQ.Service.extend({
 
   initialize : function() {
     this.schema = {
-      id: "string",
-			created_at: "string",
-			title: "string",
-			created_by: "string",
-			content: "string",
-			url: "string",
-			count: "string",
-			image_thumbnail_url: "string",
-			image_url: "string",
-			allow_unverified_participation: "string",
-			allow_comments: "string",
-			categories: "string",
-			permalink: "string",
-			archived : "boolean"
+      id : 'int',
+      name : 'string',
+      email : 'string',
+      avatar : 'string'
     };
 
     this.collection = true;
-  },
 
-
-
-  authenticate : function() {
-    console.log("authenticating.....", this.get('username'), this.get('password'));
+    this.url = 'https://api.mongolab.com/api/1/databases/stockvibe/collections/user?apiKey=4f6acab2e4b019347c6711c7';
   }
-
+  
 });
