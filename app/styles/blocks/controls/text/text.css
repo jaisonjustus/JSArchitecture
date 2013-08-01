@@ -1,0 +1,33 @@
+.text {
+	height: 33px;
+	padding: 2px 6px 2px 6px;
+	margin: 20px 0px 0px 20px;
+	border: 1px solid #bbbbbb;
+	/*margin-bottom: 28px;*/
+	font: 500 15px "Source Sans Pro";
+	color:#171817;
+	border-radius: 3px;
+	box-shadow: inset 0px 0px 1px 0px #aaaaaa;
+}
+
+.text_essay	{
+	width: 96%;
+	min-height: 100px;
+	padding: 1% !important;
+}
+
+.text_max	{
+	width: 500px;
+}
+
+.text_email	{
+	width: 400px;
+}
+
+.text_date	{
+	width: 250px;
+}
+
+.text_number	{
+	width: 100px;
+}

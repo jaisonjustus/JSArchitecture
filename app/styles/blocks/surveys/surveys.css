@@ -1,0 +1,125 @@
+/** Block **/
+.survey	{
+	height: auto;
+	overflow: hidden;
+	margin: 10px;
+	float: left;
+	padding: 10px;
+}
+
+/** Elements **/
+.survey__icon	{
+	width: 60px;
+	height: 60px;
+	float: left;
+	border-radius: 60px;
+	background-color: #3498db;
+	margin:10px;
+	margin-top: 0px;
+}
+
+.survey__icon_small	{
+	width: 30px;
+	height: 30px;
+	float: left;
+	border-radius: 30px;
+	background-color: #3498db;
+	margin:10px;
+	margin-top: 0px;
+}
+
+.survey__header	{
+	font: 20px "Source Sans Pro";
+	font-weight: 400;
+	margin-bottom: 10px;
+	float: right;
+	line-height: 24px;
+}
+
+.survey__post	{
+	font: 15px "Source Sans Pro";
+	font-weight: 500;
+	margin-bottom: 10px;
+	float: right;
+}
+
+.survey__media	{
+	height: auto;
+	float: right;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.survey__link	{
+	text-decoration: none;
+	width: auto;
+	height: auto;
+	font: 15px "Source Sans Pro";
+	color:white;
+	background-color: #3498db;
+	font-weight: 500;
+	margin:0px 0px 20px 0px;
+	padding: 6px 10px 5px 40px;
+	border-radius: 3px;
+}
+
+.survey__link_left	{
+	float: left;
+}
+
+.survey__link_right	{
+	float: right;
+}
+
+/** Modifier **/
+
+/* Survey block with border. */
+.survey_border	{
+	border-bottom: 1px solid #ababab;
+}
+
+/* Survey block with background color. */
+.survey_backdrop	{
+	background-color: white;
+	margin:5px;
+}
+
+/* Full */
+.survey_full	{
+	width: 896px;
+}
+
+.survey__media_full	{
+	width: 815px;
+}
+
+.survey__media_full *	{
+	width: 500px;
+	height: 300px;
+	float: left;
+}
+
+.survey__header_full, .survey__post_full	{
+	width: 800px;
+	float:left;
+}
+
+/* Half */
+.survey_half 	{
+	width: 410px;
+}
+
+.survey__media_half	{
+	width: 327px;
+}
+
+.survey__media_half *	{
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+.survey__header_half, .survey__post_half	{
+	width: 327px;
+}
+

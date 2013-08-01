@@ -1,0 +1,35 @@
+.picture-tile	{
+	width: 290px;
+	height: 350px;
+	margin: 10px;
+	float:left;
+	overflow: hidden;
+}
+
+.picture-tile__image{
+	width: 160px;
+	height: 160px;
+	border-radius: 160px;
+	background-color: #ABABAB;
+	margin: auto;
+}
+
+.picture-tile__header	{
+	font: 20px "Source Sans Pro";
+	font-weight: 800;
+	color: #171817;
+}
+
+.picture-tile__desc	{
+	font: 14px "Source Sans Pro";
+	font-weight: 400;
+	color: #171817;
+}
+
+.picture-tile__desc_spam	{
+	color: red;
+}
+
+.picture-tile__desc_agree	{
+	color: green;
+}

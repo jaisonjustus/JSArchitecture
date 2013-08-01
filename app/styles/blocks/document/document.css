@@ -1,0 +1,40 @@
+.document	{
+	height: auto;
+}
+
+.document__list	{
+	margin: 0;
+	padding: 0;
+}
+
+.document__item	{
+	width: auto;
+	height: auto;
+	padding-left:35px;
+	position: relative;
+	overflow: hidden;
+	min-height: 35px;
+	margin-top: 5px;
+}
+
+.document__icon	{
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	background-color: #3498db;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-image: url('../surveys/survey-icon-b.png');
+	background-repeat: no-repeat;
+	background-position: 9px 8px;
+	background-size: 13px 15px;
+}
+
+.document__name	{
+	text-decoration: none;
+	margin-top: 4px;
+	font:400 16px "Source Sans Pro";
+	color: black;
+	float: left;
+}

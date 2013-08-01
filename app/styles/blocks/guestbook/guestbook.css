@@ -1,0 +1,123 @@
+/** Blocks **/
+.guestbook	{
+	font-family: "Source Sans Pro";
+	padding:20px 20px 20px 30px;
+}
+
+/** Element **/
+
+/* Guestbook introduction rich text element. which consist of prestyled html
+tags like p, img, iframe etc. */
+.guestbook__introduction	{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+/* Overridring the properties of iframe and image in the rish text. */
+.guestbook__introduction iframe, img	{
+	width: 500px;
+	height: 300px;
+	margin: 10px 0px 10px 0px;
+}
+
+.guestbook__form	{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 20px 0px 20px 0px;
+	font-family: "Source Sans Pro";
+	padding: 20px 0px 20px 0px;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.guestbook__form-note	{
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.guestbook__form-note	a{
+	font-weight: 400;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3498db;
+}
+
+.guestbook__form-post-text	{
+	width: 98%;
+	height: 100px;
+	padding: 1%;
+	border: 1px solid #aaaaaa;
+	margin:10px 0px 10px 0px;
+	border-radius: 3px;
+	box-shadow: inset 0px 0px 2px 1px #dddddd;
+}
+
+.guestbook__form-post-button	{
+	width: auto;
+	height: auto;
+	color:white;
+	background-color: #3498db;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 8px 10px 8px 40px;
+	float: left;
+	border: 0;
+	border-radius: 3px;
+	background-image: url('../controls/yes-icon.png');
+	background-repeat: no-repeat;
+	background-position: 9px 7px;
+	background-size: 20px 22px;
+}
+
+/* Collection or list of guests posts. */
+.guestbook__posts	{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	margin-top: 30px;
+}
+
+/* Single guest post. */
+.guestbook__post	{
+	width: 97%;
+	height: auto;
+	padding: 1%;
+	border-left: 3px solid #3498db;
+	margin-top:10px;
+}
+
+/* Post owner. */
+.guestbook__post-by	{
+	font-weight: 700;
+	font-size: 16px;
+	color: #171817;
+}
+
+/* Posted date. */
+.guestbook__post-on	{
+	font-weight: 400;
+	font-size: 12px;
+	color: #171817;
+	margin-left: 10px;
+}
+
+/* Post content. */
+.guestbook__post-content	{
+	font-weight: 500;
+	font-size: 15px;
+	color: #171817;
+	margin-top: 10px;
+}
+
+/* Overriding the links in the post content. */
+.guestbook__post-content a	{
+	color: #3498db !important;
+	text-decoration: none;
+}
+
+/** Modifiers **/

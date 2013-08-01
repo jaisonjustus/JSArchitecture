@@ -1,0 +1,39 @@
+.sleek-footer	{
+	width: 900px;
+	height: auto;
+	padding: 50px 20px 30px 20px;
+	background-color: #333333; 
+	overflow: hidden;
+}
+
+.sleek-footer__branding-wrapper, .sleek-footer__quicklink-wrapper	{
+	width: 430px;
+	height: auto;
+	padding: 10px;
+	overflow: hidden;
+	min-height: 20px;
+	float: left;
+}
+
+.sleek-footer__quicklink	{
+	width: auto;
+	font: 15px "Source Sans Pro";
+	font-weight: 500px;
+	color: white;
+	padding: 3px 5px 3px 5px;
+	background-color: #444444;
+	margin:3px;
+	float: left;
+	border-radius: 3px;
+}
+
+.sleek-footer__header	{
+	font:20px "Source Sans Pro";
+	font-weight: 200;
+	color:white;
+	margin:0px 0px 10px 5px;
+}
+
+.sleek-footer__line	{
+	border: 1px solid #444444;
+}

@@ -1,0 +1,67 @@
+/** Block **/
+.selectable	{
+	
+}
+
+/** Element **/
+.selectable__drop-down	{
+	height: 30px;
+	padding: 2px 6px 2px 6px;
+	margin: 20px 0px 0px 20px;
+	border: 1px solid #bbbbbb;
+	font: 500 15px "Source Sans Pro";
+	color:#171817;
+	border-radius: 3px;
+	box-shadow: inset 0px 0px 1px 0px #aaaaaa;
+}
+
+.selectable__drop-down_padding	{
+	margin: 20px 0px 0px 20px;
+}
+
+.selectable__rank-list	{
+	font: 500 15px "Source Sans Pro";
+	color:#171817;
+	list-style: upper-latin;
+	padding: 2px 6px 2px 16px;
+	margin: 20px 0px 0px 20px;
+}
+
+.selectable__rank-list-item	{
+	margin-bottom: 20px;
+}
+
+.selectable__rank-list-item *	{
+	margin-top: 5px !important;
+}
+
+.selectable__question	{
+	font: 500 15px "Source Sans Pro";
+	color: #171817;
+}
+
+.selectable__check-radio-list	{
+	list-style: none;
+	padding: 2px 6px 2px 16px;
+	margin: 20px 0px 0px 20px;
+}
+
+.selectable__check-radio-item	{
+	margin-bottom: 10px;
+}
+
+.selectable__check-radio-text	{
+	font: 500 15px "Source Sans Pro";
+	color:#171817;
+	margin-left:5px;
+}
+
+
+/** Modifier **/
+.selectable__drop-down_small	{
+	width:100px;
+}
+
+.selectable__drop-down_big	{
+	width:300px;
+}
