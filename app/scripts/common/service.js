@@ -75,6 +75,7 @@ Service = EHQ.Service = extend({
     for(var attribute in this.schema) {
       if(this.schema[attribute] !== 'int' &&
           this.schema[attribute] !== 'string' &&
+          this.schema[attribute] !== 'boolean' &&
           this.schema[attribute] !== 'float') {
         delete this.schema[attribute];
       }
@@ -173,7 +174,7 @@ Service = EHQ.Service = extend({
    */
   get : function(key)  {
     if(key === '*') {
-      return this.datum;
+      return (this.collection) ? this.data : this.datum;
     }else {
       return this.datum[key];
     }
